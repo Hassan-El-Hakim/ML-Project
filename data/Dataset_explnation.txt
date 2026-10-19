@@ -1,0 +1,35 @@
+==========================================================================================================================================================================
+Variable                     | Type        | Description                                                                              | Source / Engineering
+==========================================================================================================================================================================
+ADR                          | Numeric     | Average Daily Rate. Sum of all lodging transactions divided by total staying nights.     | BO, BL and TR
+Adults                       | Integer     | Number of adults.                                                                        | BO and BL
+Agent                        | Categorical | ID of the travel agency that made the booking.                                           | BO and BL
+ArrivalDateDayOfMonth        | Integer     | Day of the month of the arrival date.                                                    | BO and BL
+ArrivalDateMonth             | Categorical | Month of arrival date (January to December).                                             | BO and BL
+ArrivalDateWeekNumber        | Integer     | Week number of the arrival date.                                                         | BO and BL
+ArrivalDateYear              | Integer     | Year of arrival date.                                                                    | BO and BL
+AssignedRoomType             | Categorical | Code for assigned room type. May differ from reserved due to operations. Anonymous code. | BO and BL
+Babies                       | Integer     | Number of babies.                                                                        | BO and BL
+BookingChanges               | Integer     | Number of changes made to booking (persons, dates, nights, room, meal) before check-in.   | BO and BL
+Children                     | Integer     | Number of children (sum of both payable and non-payable children).                       | BO and BL
+Company                      | Categorical | ID of the company/entity responsible for booking or paying. Anonymous code.             | BO and BL
+Country                      | Categorical | Country of origin represented in ISO 3155-3:2013 format.                                 | BO, BL and NT
+CustomerType                 | Categorical | Type: Contract (allotment), Group, Transient (independent), Transient-party (linked).    | BO and BL
+DaysInWaitingList            | Integer     | Number of days on the waiting list before confirmation.                                  | BO
+DepositType                  | Categorical | Status: No Deposit, Non Refund (paid full stay cost), Refundable (paid under full cost). | BO and TR
+DistributionChannel          | Categorical | Booking distribution channel (TA = Travel Agents, TO = Tour Operators).                  | BO, BL and DC
+IsCanceled                   | Categorical | Value indicating if the booking was canceled (1) or not (0).                             | BO
+IsRepeatedGuest              | Categorical | Value indicating if the booking is from a repeated guest (1) or not (0).                 | BO, BL and C
+LeadTime                     | Integer     | Number of days between booking entry date and arrival date.                              | BO and BL
+MarketSegment                | Categorical | Market segment designation (TA = Travel Agents, TO = Tour Operators).                    | BO, BL and MS
+Meal                         | Categorical | Package: Undefined/SC (no meal), BB (Bed & Breakfast), HB (Half board), FB (Full board).  | BO, BL and ML
+PreviousBookingsNotCanceled  | Integer     | Number of previous bookings not cancelled prior to this one. (0 if no profile).          | BO and BL
+PreviousCancellations        | Integer     | Number of previous bookings cancelled prior to this one. (0 if no profile).              | BO and BL
+RequiredCardParkingSpaces    | Integer     | Number of car parking spaces required by the customer.                                   | BO and BL
+ReservationStatus            | Categorical | Last status: Canceled, Check-Out, No-Show.                                               | BO
+ReservationStatusDate        | Date        | Date at which the last status was set.                                                   | BO
+ReservedRoomType             | Categorical | Code of room type reserved. Anonymous code.                                              | BO and BL
+StaysInWeekendNights         | Integer     | Number of weekend nights (Sat or Sun) stayed or booked.                                  | BO and BL
+StaysInWeekNights            | Integer     | Number of weeknights (Mon to Fri) stayed or booked.                                      | BO and BL
+TotalOfSpecialRequests       | Integer     | Number of special requests made (e.g., twin bed, high floor).                            | BO and BL
+==========================================================================================================================================================================
