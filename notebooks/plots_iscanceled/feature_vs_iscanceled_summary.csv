@@ -1,0 +1,31 @@
+Feature,Visualization,Missing (%),Unique values
+LeadTime,binned numeric cancellation rate,0.0,453
+ArrivalDateYear,category cancellation rate,0.0,3
+ArrivalDateMonth,category cancellation rate,0.0,12
+ArrivalDateWeekNumber,binned numeric cancellation rate,0.0,53
+ArrivalDateDayOfMonth,binned numeric cancellation rate,0.0,31
+StaysInWeekendNights,binned numeric cancellation rate,0.0,14
+StaysInWeekNights,binned numeric cancellation rate,0.0,29
+Adults,category cancellation rate,0.0,5
+Children,category cancellation rate,0.01,4
+Babies,category cancellation rate,0.0,5
+Meal,category cancellation rate,0.0,4
+Country,category cancellation rate,0.03,166
+MarketSegment,category cancellation rate,0.0,8
+DistributionChannel,category cancellation rate,0.0,5
+IsRepeatedGuest,category cancellation rate,0.0,2
+PreviousCancellations,category cancellation rate,0.0,10
+PreviousBookingsNotCanceled,binned numeric cancellation rate,0.0,73
+ReservedRoomType,category cancellation rate,0.0,8
+AssignedRoomType,category cancellation rate,0.0,9
+BookingChanges,binned numeric cancellation rate,0.0,21
+DepositType,category cancellation rate,0.0,3
+Agent,category cancellation rate,0.0,224
+Company,category cancellation rate,0.0,208
+DaysInWaitingList,binned numeric cancellation rate,0.0,115
+CustomerType,category cancellation rate,0.0,4
+ADR,binned numeric cancellation rate,0.0,5405
+RequiredCarParkingSpaces,category cancellation rate,0.0,4
+TotalOfSpecialRequests,category cancellation rate,0.0,6
+ReservationStatus,category cancellation rate,0.0,3
+ReservationStatusDate,date (monthly cancellation rate),0.0,864
